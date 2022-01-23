@@ -22,7 +22,7 @@
 // speed limits for invividual modes in kph
 #define SPEEDLIMIT_ECO 6
 #define SPEEDLIMIT_NORMAL 20
-#define SPEEDLIMIT_SPORT 50
+#define SPEEDLIMIT_SPORT 99
 
 // motor current limits for invividual modes in mA
 // note that hacked firmware allows up to 55amps motor phase current
@@ -45,6 +45,6 @@
 
 #define BATTERYVOLTAGE_MIN 30000 // for development only
 
-#define BATTERYVOLTAGE_MAX 42000
+#define BATTERYVOLTAGE_MAX 84000
 
 #endif /* CONFIG_H_ */
